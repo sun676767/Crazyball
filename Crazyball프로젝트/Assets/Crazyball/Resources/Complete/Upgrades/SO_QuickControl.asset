@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Crazyball.CourseKit.Upgrades.UpgradeDefinition
   upgradeId: ingame.responsiveness
   displayName: Quick Control
-  description: The ball follows input faster.
+  description: "\uACF5\uC774 \uC785\uB825\uC744 \uB354 \uBE60\uB974\uAC8C \uB530\uB77C\uAC10"
   icon: {fileID: 21300000, guid: 5d9ba4e7d0964044ea54abe409d81dfd, type: 3}
   category: 0
   effectType: 0
