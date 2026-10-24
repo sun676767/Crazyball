@@ -236,7 +236,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -1022,17 +1022,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " \uB05D\uAE4C\uC9C0 \uB0A0\uC544\uB0A8\uC73C\uB824\uBA74 \uBCBD\uC744
-    \uC5C6\uC560\uAC70\uB098 \uD53C\uD574\uB77C."
+  m_text: "FIVE STAGES  \u2022  ONE PERFECT RUN"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cf963bb36fbc2e54ba00783048fefa1f, type: 2}
-  m_sharedMaterial: {fileID: 386127238180324248, guid: cf963bb36fbc2e54ba00783048fefa1f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e8058d7c235683498b60b270768666e, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8e8058d7c235683498b60b270768666e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4293448996
+    rgba: 4294967295
   m_fontColor: {r: 0.14117648, g: 0.8352941, b: 0.9098039, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1045,18 +1044,18 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 0
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1141,16 +1140,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uBAA8\uB4E0 \uB2E8\uACC4\uB97C \uC804\uBD80\uB2E4 \uAE68\uC138\uC694!"
+  m_text: 'UPGRADE CORES  0
+
+    BEST CHECKPOINT  0 / 5'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cf963bb36fbc2e54ba00783048fefa1f, type: 2}
-  m_sharedMaterial: {fileID: 386127238180324248, guid: cf963bb36fbc2e54ba00783048fefa1f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e8058d7c235683498b60b270768666e, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8e8058d7c235683498b60b270768666e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4283943167
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 0.78431374, b: 0.34117648, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1163,13 +1164,13 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 0
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1207,7 +1208,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -51.46338, y: 0, z: -62.363464, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1237,7 +1238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.28, y: 0.2}
   m_AnchorMax: {x: 0.72, y: 0.31}
-  m_AnchoredPosition: {x: 0, y: 34}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &799836320
@@ -1274,7 +1275,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.15, y: 0.43}
   m_AnchorMax: {x: 0.85, y: 0.77}
-  m_AnchoredPosition: {x: 0, y: 24}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &799836322
@@ -1297,10 +1298,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Very Crazy Pinball Game
+  m_text: 'CRAZY
+
+    BALL'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cf963bb36fbc2e54ba00783048fefa1f, type: 2}
-  m_sharedMaterial: {fileID: 386127238180324248, guid: cf963bb36fbc2e54ba00783048fefa1f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e8058d7c235683498b60b270768666e, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8e8058d7c235683498b60b270768666e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1319,13 +1322,13 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 0
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 96
+  m_fontSizeBase: 96
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1561,7 +1564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.15, y: 0.02}
   m_AnchorMax: {x: 0.85, y: 0.07}
-  m_AnchoredPosition: {x: 0, y: 15}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1066116597
@@ -1584,18 +1587,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A\uB97C \uB204\uB974\uBA74 \uC67C\uCABD\uC73C\uB85C \uAC00\uACE0 D\uB97C
-    \uB204\uB974\uBA74 \uC624\uB978 \uCABD\uC73C\uB85C \uAC04\uB2E4.\nShift\uB97C
-    \uB204\uB974\uBA74 \uACF5\uC774 \uBC1C\uC0AC \uB41C\uB2E4."
+  m_text: "DRAG / HOLD TO MOVE    \u2022    ESC TO PAUSE"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cf963bb36fbc2e54ba00783048fefa1f, type: 2}
-  m_sharedMaterial: {fileID: 386127238180324248, guid: cf963bb36fbc2e54ba00783048fefa1f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e8058d7c235683498b60b270768666e, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8e8058d7c235683498b60b270768666e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 1946157055
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 0.45}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1608,13 +1609,13 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 0
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.06
-  m_fontSizeBase: 20.06
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1912,7 +1913,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280882704
+    rgba: 4294967295
   m_fontColor: {r: 0.0627451, g: 0.08627451, b: 0.16078432, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1925,7 +1926,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 0
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -2062,7 +2063,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.15, y: 0.37}
   m_AnchorMax: {x: 0.85, y: 0.43}
-  m_AnchoredPosition: {x: 0, y: 20}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1307187413
@@ -2085,17 +2086,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD53C\uD558\uACE0-\uC218\uC9D1\uD558\uACE0-\uC5C5\uADF8\uB808\uC774\uB4DC\uB97C
-    \uD558\uB294 \uAC8C\uC784."
+  m_text: "DODGE  \u2022  COLLECT  \u2022  UPGRADE"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cf963bb36fbc2e54ba00783048fefa1f, type: 2}
-  m_sharedMaterial: {fileID: 386127238180324248, guid: cf963bb36fbc2e54ba00783048fefa1f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e8058d7c235683498b60b270768666e, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8e8058d7c235683498b60b270768666e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 3103784959
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 0.72}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -2108,13 +2108,13 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 0
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2202,7 +2202,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.34, y: 0.09}
   m_AnchorMax: {x: 0.66, y: 0.18}
-  m_AnchoredPosition: {x: 0, y: 27}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1327380888
@@ -2878,7 +2878,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1983084942}
   - component: {fileID: 1983084941}
-  - component: {fileID: 1983084943}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -2966,35 +2965,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1983084943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983084940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_CustomShadowLayers: 0
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
-  m_RenderingLayersMask:
-    serializedVersion: 0
-    m_Bits: 1
-  m_ShadowRenderingLayersMask:
-    serializedVersion: 0
-    m_Bits: 1
-  m_Version: 4
-  m_LightLayerMask: 1
-  m_ShadowLayerMask: 1
-  m_RenderingLayers: 1
-  m_ShadowRenderingLayers: 1
 --- !u!114 &2041070965
 MonoBehaviour:
   m_ObjectHideFlags: 0
